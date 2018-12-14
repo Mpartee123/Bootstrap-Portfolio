@@ -100,3 +100,7 @@ footer {
     padding: .3rem;
     margin-block-start: -5rem;
 }
+
+.bkrnd-color {
+    background-color: #4aaaa5;
+}
