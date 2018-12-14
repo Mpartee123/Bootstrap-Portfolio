@@ -72,11 +72,31 @@ footer {
     /* positioning */
     position: fixed;
     height: 50px;
-    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     /* Colors */
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
+    z-index: auto;
+
+}
+
+.portfolio-image {
+    height: 200px;
+    width: 200px;
+}
+
+.img-format {
+    width: 100%;
+}
+
+.pimg-footer {
+    position: relative;
+    background-color: #4aaaa5;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: .3rem;
+    margin-block-start: -5rem;
 }
